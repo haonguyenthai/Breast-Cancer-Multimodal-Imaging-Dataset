@@ -114,27 +114,7 @@ Below is a histogram showing the number of datasets in each modality, and pie ch
 
 ### Histopathology
 
-| Dataset                          | Subjects | Nº Samples| Format | Size | Year | Cite | Download |
-|----------------------------------|----------|-----------|--------|------|------|------|----------|
-| Post NAT BRCA                    |   54     |   54      |   SVS     |  42.3GB    |  2019    | [Assessment of Residual Breast Cancer Cellularity after Neoadjuvant Chemotherapy using Digital Pathology (Data set)](https://doi.org/10.7937/TCIA.2019.4YIBTJNO)     |   [Download here](https://www.cancerimagingarchive.net/collection/post-nat-brca/)       |
-| Breast Histopathology Images     |    162      |    162       |    PNG    |  1.6GB    |  2016    | [Deep learning for digital pathology image analysis: A comprehensive tutorial with selected use cases](https://www.ncbi.nlm.nih.gov/pubmed/27563488)     |    [Download here](https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images)      |
-| BreakHis                         |    82      |    7,909       |   PNG     | N/A     |   2016   |  [A Dataset for Breast Cancer Histopathological Image Classification](http://www.inf.ufpr.br/lesoliveira/download/TBME-00608-2015-R2-preprint.pdf)    | [Download here](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/)         |
-| Breast Cancer Cell Segmentation  |   N/A       |   58        |   TIFF     | 159.82MB     | 2019    |  [Evaluation and benchmark for biological image segmentation](https://ieeexplore.ieee.org/document/4712130)    |  [Download here](https://www.kaggle.com/datasets/andrewmvd/breast-cancer-cell-segmentation)        |
-| BCSS                             | 25         |    151       |   RGB     |  N/A    |   2019   |  [Structured crowdsourcing enables convolutional segmentation of histology images](https://academic.oup.com/bioinformatics/article/35/18/3461/5307750?login=true)    | [Download here](https://github.com/PathologyDataScience/BCSS?tab=readme-ov-file)         |
-| TUPAC16                          |   500       |       N/A    |    SVS    |  848GB    |   2016   |  [Predicting breast tumor proliferation from whole-slide images: the TUPAC16 challenge](https://pubmed.ncbi.nlm.nih.gov/30861443/)    |  [Download here](https://tupac.grand-challenge.org/)        |
-| CAMELYON                         |   200       |    1 399       | TIFF       |  N/A    |  2018    |  [1399 H&E-stained sentinel lymph node sections of breast cancer patients: the CAMELYON dataset](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007545/)    |  [Download here](https://camelyon17.grand-challenge.org/Data/)        |
-| BACH                             |    N/A      |     400      |   SVS & TIFF     |    18.23GB  |  2022    |  [Bach: Grand challenge on breast cancer histology images](https://arxiv.org/abs/1808.04277)    | [Download here](https://www.kaggle.com/datasets/truthisneverlinear/bach-breast-cancer-histology-images)         |
-
-**Summaries:**
-
-- **Post NAT BRCA:** High-resolution WSIs post-neoadjuvant therapy, ideal for quantifying residual disease, segmentation, and treatment response analysis.
-- **Breast Histopathology Images:** Smaller PNG patches well-suited for basic classification and validation of histopathology models.
-- **BreakHis:** Large-scale histopathology dataset, excellent for classification and detection of tumor subtypes at various magnifications.
-- **Breast Cancer Cell Segmentation:** Focused on cell-level segmentation tasks, useful for training models that identify and count cells in tissues.
-- **BCSS:** Annotated crowdsourced dataset enabling segmentation and classification tasks at the tissue level.
-- **TUPAC16:** Whole-slide images for quantifying tumor proliferation; used in classification and mitosis detection challenges.
-- **CAMELYON:** WSIs for lymph node metastasis detection and segmentation tasks.
-- **BACH:** Balanced dataset of four histopathological classes (normal, benign, in situ, invasive) suitable for classification and region-of-interest detection.
+can be found here https://github.com/haonguyenthai/Breast-Cancer-Pathology-Dataset 
 
 
 ## Contributing & Contact
@@ -143,4 +123,4 @@ Below is a histogram showing the number of datasets in each modality, and pie ch
   Suggestions for new datasets, updates, or corrections are welcome. Please open an issue or submit a pull request.
 
 - **Contact:**  
-  For specific dataset access, follow the provided links or contact dataset maintainers directly.  For repository-related questions or inquiries, feel free to email me at [hmfigueiras@fc.ul.pt](mailto:hmfigueiras@fc.ul.pt).
+  For specific dataset access, follow the provided links or contact dataset maintainers directly.  For repository-related questions or inquiries, feel free to email me at [hmfigueiras@fc.ul.pt](mailto:hao.nguyen@uq.edu.au).
