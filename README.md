@@ -1,23 +1,3 @@
-# Breast-Cancer-Multimodal-Imaging-Datasets
-
-Credit: This repo inherits and extends some of the summaries from  
-https://github.com/hugofigueiras/Breast-Cancer-Imaging-Datasets
-
-This repository serves as a centralized resource listing **breast imaging and pathology datasets** commonly used in academic research, clinical training, and machine-learning applications. The goal is to provide in one place:
-
-- A curated list of datasets across **radiology (MRI, MG/DBT, US, CT, PET)**,  
-  **histopathology / whole-slide images**, and **multimodal** resources.
-- High-level metadata (number of subjects, data types, supporting clinical / omics data).
-- Pointers on _how to obtain_ each dataset.
-
-If you know more datasets and want to contribute, please submit a pull request – contributions are very welcome 😊
-
-All datasets are catalogued in:
-
-```text
-
-⸻
-
 Breast-Cancer-Multimodal-Imaging-Datasets
 
 Credit: This repo inherits and extends some of the summaries from
