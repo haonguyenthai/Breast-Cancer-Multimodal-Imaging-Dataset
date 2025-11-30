@@ -1,7 +1,9 @@
 # Breast-Cancer-Multimodal-Imaging-Datasets
-Credit: This repo inherit some of the summary from this https://github.com/hugofigueiras/Breast-Cancer-Imaging-Datasets?tab=readme-ov-file
-This repository serves as a centralized resource listing various breast imaging and pathology datasets commonly used in academic research, clinical training, and machine learning applications. The goal is to provide detailed summaries of key characteristics, usage instructions, and guidance on how to obtain these datasets, all in one place.
-If you know any more datasets, and want to contribute, please submit a pull request and I'll happily approve it.
+The figures above (histogram, pie chart) were generated from `data/datasets_master.csv`, which unifies:
+- TCIA-based multimodal datasets (MRI, MG, CT, PET, US),
+- Kaggle / other public datasets,
+- Multimodal WSI+omics datasets (e.g. CPTAC-BRCA, REG2025).
+
 
 ## Introduction
 
@@ -124,3 +126,7 @@ can be found here https://github.com/haonguyenthai/Breast-Cancer-Pathology-Datas
 
 - **Contact:**  
   For specific dataset access, follow the provided links or contact dataset maintainers directly.  For repository-related questions or inquiries, feel free to email me at [hmfigueiras@fc.ul.pt](mailto:hao.nguyen@uq.edu.au).
+
+Credit: This repo inherit some of the summary from this https://github.com/hugofigueiras/Breast-Cancer-Imaging-Datasets?tab=readme-ov-file
+This repository serves as a centralized resource listing various breast imaging and pathology datasets commonly used in academic research, clinical training, and machine learning applications. The goal is to provide detailed summaries of key characteristics, usage instructions, and guidance on how to obtain these datasets, all in one place.
+If you know any more datasets, and want to contribute, please submit a pull request and I'll happily approve it.
