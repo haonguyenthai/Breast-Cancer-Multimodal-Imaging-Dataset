@@ -1,9 +1,3 @@
-Nice, repo nhìn xịn rồi đó 😎
-Tớ viết lại README.md cho khớp với datasets_master.csv + các hình mà m đã generate (histogram, pie, subjects bar, datatype bar/pie, multimodal heatmap). M chỉ cần copy–paste đè file README hiện tại.
-
-⸻
-
-
 # Breast-Cancer-Multimodal-Imaging-Datasets
 
 Credit: This repo inherits and extends some of the summaries from  
@@ -21,9 +15,27 @@ If you know more datasets and want to contribute, please submit a pull request �
 All datasets are catalogued in:
 
 ```text
+
+⸻
+
+Breast-Cancer-Multimodal-Imaging-Datasets
+
+Credit: This repo inherits and extends some of the summaries from
+https://github.com/hugofigueiras/Breast-Cancer-Imaging-Datasets
+
+This repository serves as a centralized resource listing breast imaging and pathology datasets commonly used in academic research, clinical training, and machine-learning applications. The goal is to provide in one place:
+	•	A curated list of datasets across radiology (MRI, MG/DBT, US, CT, PET),
+histopathology / whole-slide images, and multimodal resources.
+	•	High-level metadata (number of subjects, data types, supporting clinical / omics data).
+	•	Pointers on how to obtain each dataset.
+
+If you know more datasets and want to contribute, please submit a pull request – contributions are very welcome 😊
+
+All datasets are catalogued in:
+
 data/datasets_master.csv
 
-Currently the CSV contains 65+ datasets spanning radiology, histopathology and multimodal (imaging + clinical / omics) resources.
+Currently the CSV contains 60+ datasets spanning radiology, histopathology and multimodal (imaging + clinical / omics) resources.
 
 ⸻
 
@@ -122,7 +134,7 @@ CDD-CESM	326	2,006	JPEG	1.5GB	2021	Categorized Contrast Enhanced Mammography dat
 VinDr-Mammo	5,000	20,000	DICOM	N/A	2022	A large-scale benchmark dataset for CAD in full-field digital mammography	Download here
 INBreast	115	410	N/A	N/A	2012	INbreast: toward a full-field digital mammographic database	Contact the authors
 MIAS	N/A	322	PGM	1.5GB	2015	MIAS database v1.21	Download here
-Breast Tumor Mammography Dataset for Computer Vision	N/A	3,383	JPG	103.49MB	2024	N/A	Download here
+Breast Tumor Mammography Dataset for CV	N/A	3,383	JPG	103.49MB	2024	N/A	Download here
 
 Summaries
 	•	CBIS-DDSM: Annotated mammograms for classification, calcification detection, and mass segmentation.
@@ -174,7 +186,7 @@ Repository structure
 	•	data/datasets_master.csv – master table with all datasets and metadata.
 	•	scripts/generate_figures.py – generates summary figures (modality histogram, pie charts, subject distribution, data-type bar/pie).
 	•	images/ – rendered figures used in this README.
-	•	Additional scripts (e.g. plot_multimodal_matrix.py, plot_multimodal_cohort_counts.py) – visualize intersections between imaging, histopathology, omics and clinical data across cohorts.
+	•	Additional scripts (e.g. multimodal intersection plots) – visualize overlaps between imaging, histopathology, omics and clinical data across cohorts.
 
 ⸻
 
@@ -186,4 +198,3 @@ For dataset access, follow the official links provided in the tables and CSV, or
 For questions about this repository, feel free to email me at
 hao.nguyen@uq.edu.au.
 
-Nếu m có thêm hình khác (VD: multimodal heatmap `multimodal_matrix.png`, `multimodal_cohort_counts.png`), gửi tên file cho t, t nhét thêm 1 section “Multimodal intersections” với caption đẹp cho m luôn.
